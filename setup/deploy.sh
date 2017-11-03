@@ -10,9 +10,9 @@ echo "Enter your password for the Apigee Enterprise organization $org, followed 
 
 read -s password
 
-echo Deploying $proxy to $env on $url using $username and $org
+echo Deploying $api_Name to $env on $url using $username and $org
 
-../tools/deploy.py -n $proxy -u $username:$password -o $org -h $url -e $env -p / -d ../$proxy -h $url
+../tools/deploy.py -n $api_Name -u $username:$password -o $org -h $url -e $env -p / -d ../$api_Name -h $url
 
 echo "If 'State: deployed', then your API Proxy is ready to be invoked."
 

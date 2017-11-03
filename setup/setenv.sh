@@ -20,6 +20,7 @@
 
 org="rummani-eval"
 username="rummani@prokarma.com"
+password="Nov@2017"
 url="https://api.enterprise.apigee.com"
 env='test'
 api_domain="apigee.net"
@@ -33,3 +34,4 @@ export env=$env
 export url=$url
 export api_domain=$api_domain
 export api_Name=$api_Name
+export password=$password
