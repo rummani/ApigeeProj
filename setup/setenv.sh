@@ -23,6 +23,7 @@ username="rummani@prokarma.com"
 url="https://api.enterprise.apigee.com"
 env='test'
 api_domain="apigee.net"
+api_Name="Hello"
 
 ## Do not change the settings below
 ## --------------------------------------
@@ -31,3 +32,4 @@ export username=$username
 export env=$env
 export url=$url
 export api_domain=$api_domain
+export api_Name=$api_Name
