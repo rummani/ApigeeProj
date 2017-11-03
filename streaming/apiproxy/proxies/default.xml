@@ -1,6 +1,6 @@
 <ProxyEndpoint name="default">
   <HTTPProxyConnection>
-    <BasePath>/streaming1</BasePath>    
+    <BasePath>/streaming</BasePath>    
     <VirtualHost>default</VirtualHost>
     <Properties>
        <Property name="request.streaming.enabled">true</Property>
