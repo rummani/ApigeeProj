@@ -24,7 +24,7 @@ password="Nov@2017"
 url="https://api.enterprise.apigee.com"
 env='test'
 api_domain="apigee.net"
-api_Name="Hello"
+api_Name="streaming"
 
 ## Do not change the settings below
 ## --------------------------------------
