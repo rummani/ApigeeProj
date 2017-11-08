@@ -1,1 +1,2 @@
- apigeelint -s ./Hello/apiproxy / -f table.js
+ npm install apigeelint
+ apigeelint -s ./streaming/apiproxy / -f table.js
