@@ -7,7 +7,7 @@ echo "Enter your password for the Apigee Enterprise organization $org, followed 
 read -s password
 
 echo Deploying $proxy to $env on $url using $username and $org
-
+apigeelint -s ../streaming/apiproxy / -f table.js
 ../../tools/deploy.py -n streaming -u $username:$password -o $org -h $url -e $env -p / -d ../streaming
 
 echo "If 'State: deployed', then your API Proxy is ready to be invoked."
