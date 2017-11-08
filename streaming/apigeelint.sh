@@ -1,0 +1,1 @@
+ apigeelint -s ./Hello/apiproxy / -f table.js
