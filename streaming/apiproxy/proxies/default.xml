@@ -1,6 +1,14 @@
 <ProxyEndpoint name="default">
   <HTTPProxyConnection>
-    <BasePath>/streaming1</BasePath>    
+  <Flow>
+  <Request>
+  <Step>
+       <Name>caluclator</Name>
+  </Step>
+  </Request>
+  <Response/>
+  </Flow>
+    <BasePath>/streaming</BasePath>    
     <VirtualHost>default</VirtualHost>
     <Properties>
        <Property name="request.streaming.enabled">true</Property>
