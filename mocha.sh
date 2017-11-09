@@ -1,4 +1,4 @@
 npm install -g mocha
-./test/package.json
+./test
 pwd 
 npm test
