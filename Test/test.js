@@ -1,5 +1,5 @@
 var assert = require('assert');
-var test = require('./calc.js');
+var test = require('../../calc.js');
 describe("calcTest",function(){
   describe('addTest', function() {
     it('it should give valid result', function(){
