@@ -1,2 +1,2 @@
-npm install -g mocha
+npm install mocha
 npm test
