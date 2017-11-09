@@ -1,5 +1,5 @@
 var assert = require('assert');
-var test = require('.\streaming\apiproxy\resources\jsc\calc.js');
+var test = require('./streaming/apiproxy/resources/jsc/calc.js');
 describe("calcTest",function(){
   describe('addTest', function() {
     it('it should give valid result', function(){
