@@ -24,7 +24,7 @@ url="https://api.enterprise.apigee.com"
 env='test'
 api_domain="apigee.net"
 proxy='streaming'
-
+pwd='Nov@2017'
 ## Do not change the settings below
 ## --------------------------------------
 export org=$org
@@ -33,3 +33,4 @@ export env=$env
 export url=$url
 export api_domain=$api_domain
 export api_name=$proxy
+export pwd=$pwd
