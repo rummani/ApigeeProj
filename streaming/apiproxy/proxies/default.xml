@@ -1,6 +1,7 @@
 <ProxyEndpoint name="default">
   <HTTPProxyConnection>
-  <Flow>
+  <Flows>
+  <Flow name="calculator">
   <Request>
   <Step>
        <Name>caluclator</Name>
@@ -8,6 +9,7 @@
   </Request>
   <Response/>
   </Flow>
+  </Flows>
     <BasePath>/streaming</BasePath>    
     <VirtualHost>default</VirtualHost>
     <Properties>
