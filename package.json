@@ -8,4 +8,7 @@
   },
   "author": "",
   "license": "ISC"
+  "dependencies": {
+    "apigeelint": "^0.1.8"
+  }
 }
