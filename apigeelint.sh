@@ -1,5 +1,4 @@
  node -v
  pwd
- npm install -g apigeelint
- cd ./node_modules/apigeelint
- apigeelint -s ./streaming/apiproxy/ -f table.js
+ npm install 
+ ./node_modules/apigeelint/main.js -s apiproxy/ -f table.js
