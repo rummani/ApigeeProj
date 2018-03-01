@@ -1,4 +1,4 @@
  node -v
  pwd
  npm install 
- ./node_modules/apigeelint/main.js -s apiproxy/ -f html.js
+ ./node_modules/apigeelint/main.js -s apiproxy/ -f json.js
