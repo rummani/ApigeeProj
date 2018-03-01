@@ -7,7 +7,7 @@
     "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
   "dependencies": {
     "apigeelint": "^0.1.8"
   }
